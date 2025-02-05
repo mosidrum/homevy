@@ -102,7 +102,7 @@ export const Categories = () => {
       <div className="flex justify-center">
         <Button
           title="Load more"
-          className="px-14 py-4 border border-textPrimary font-bold text-xl rounded-[56px]"
+          className="px-14 py-4 border border-textPrimary font-bold text-xl rounded-[56px] mt-24"
         />
       </div>
     </div>
