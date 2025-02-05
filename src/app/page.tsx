@@ -1,6 +1,12 @@
 import React from "react";
-import { Categories, Heading, Hero, Navbar, Template } from "./components";
-import Footer from "./components/Footer";
+import {
+  Categories,
+  Heading,
+  Hero,
+  Navbar,
+  Template,
+  Footer,
+} from "./components";
 
 export default function Home() {
   return (

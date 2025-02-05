@@ -1,7 +1,7 @@
 import React from "react";
 import { Logo } from "./Logo";
 
-const Footer = () => {
+export const Footer = () => {
   const footerLinks = [
     {
       title: "Landings",
@@ -18,14 +18,16 @@ const Footer = () => {
   ];
 
   return (
-    <div className="min-h-14 grid gap-5 md:grid-cols-12 items-start py-[100px]">
+    <div className="grid gap-5 md:grid-cols-12 items-start pt-[100px] pb-10">
       <div className="md:col-span-3">
         <Logo />
-        <div className="mt-10 mb-16 font-openSans">
+        <div className="mt-10 mb-16 font-openSans text-sm md:text-base">
           Social media validation business model canvas graphical user interface
           launch party creative facebook iPad twitter.
         </div>
-        <div className="font-openSans">All rights reserved.</div>
+        <div className="font-openSans text-sm md:text-base">
+          All rights reserved.
+        </div>
       </div>
 
       <div className="md:col-span-3" />
@@ -36,7 +38,7 @@ const Footer = () => {
             key={section.title}
             className="flex flex-col justify-center gap-8"
           >
-            <div className="text-xl font-bold">{section.title}</div>
+            <div className="text-sm md:text-xl font-bold">{section.title}</div>
             {section.links.map((link, index) =>
               typeof link === "string" ? (
                 <div key={index} className="text-textTertiary">
@@ -59,5 +61,3 @@ const Footer = () => {
     </div>
   );
 };
-
-export default Footer;

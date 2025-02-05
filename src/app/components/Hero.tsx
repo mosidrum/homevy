@@ -23,7 +23,7 @@ export const Hero = () => {
             November 22, 2021
           </div>
         </div>
-        <div className="text-[36px] text-center md:text-left  leading-[50px] md:text-[42px] xl:text-[48px] xl:leading-[72px]">
+        <div className="text-[32px] text-center md:text-left  leading-[50px] md:text-[42px] xl:text-[48px] xl:leading-[72px]">
           Pitch termsheet backing validation focus release.
         </div>
 
