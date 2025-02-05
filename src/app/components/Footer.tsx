@@ -19,7 +19,7 @@ export const Footer = () => {
 
   return (
     <div className="grid gap-5 md:grid-cols-12 items-start pt-[100px] pb-10">
-      <div className="md:col-span-3">
+      <div className="md:col-span-5">
         <Logo />
         <div className="mt-10 mb-16 font-openSans text-sm md:text-base">
           Social media validation business model canvas graphical user interface
@@ -30,7 +30,7 @@ export const Footer = () => {
         </div>
       </div>
 
-      <div className="md:col-span-3" />
+      <div className="md:col-span-1" />
 
       <div className="flex justify-between md:col-span-6 font-openSans text-textSecondary">
         {footerLinks.map((section) => (
