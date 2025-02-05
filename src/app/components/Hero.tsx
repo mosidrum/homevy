@@ -7,17 +7,23 @@ export const Hero = () => {
   return (
     <div className="min-h-14 grid md:grid-cols-2 gap-x-[100px] justify-between">
       <div className="w-full">
-        <Image src={hero} alt="hero" className="w-full h-[386px] object-fill" />
+        <Image
+          src={hero}
+          alt="hero"
+          className="w-full h-[276px] md:h-[386px] object-fill"
+        />
       </div>
 
       <div className="flex flex-col justify-center">
         <div className="flex items-center gap-3 mt-6 mb-3">
-          <div className="text-textPrimary text-base font-semibold font-openSans ">
+          <div className="text-textPrimary text-xs md:text-base font-semibold font-openSans ">
             Category
           </div>
-          <div className="text-textTertiary text-base font-openSans">November 22, 2021</div>
+          <div className="text-textTertiary text-xs md:text-base font-openSans">
+            November 22, 2021
+          </div>
         </div>
-        <div className="text-[48px] leading-[72px]">
+        <div className="text-[36px] leading-[50px] md:text-[42px] xl:text-[48px] xl:leading-[72px]">
           Pitch termsheet backing validation focus release.
         </div>
 
@@ -27,7 +33,9 @@ export const Hero = () => {
             alt="user"
             className="h-[32px] w-[32px] rounded-full object-cover"
           />
-          <div className="text-base text-textSecondary">Chandler Bing</div>
+          <div className="text-xs md:text-base text-textSecondary">
+            Chandler Bing
+          </div>
         </div>
       </div>
     </div>
