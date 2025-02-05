@@ -6,7 +6,7 @@ import user1 from "../assets/user1.png";
 export const Hero = () => {
   return (
     <div className="grid md:grid-cols-2 gap-x-[100px] justify-between">
-      <div className=" w-3/4 mx-auto md:w-full">
+      <div className="mx-auto w-full">
         <Image
           src={hero}
           alt="hero"

@@ -4,7 +4,7 @@ import { CategoriesType } from "@/app/types";
 
 export const Card = (props: CategoriesType) => {
   return (
-    <div className="max-w-[300px] h-[424px] flex flex-col">
+    <div className="max-w-[300px] h-[324px] md:h-[424px] flex flex-col">
       <Image
         src={props.categoryImage}
         alt={`category-${props.id}`}
@@ -13,14 +13,14 @@ export const Card = (props: CategoriesType) => {
       <div className="flex flex-col flex-grow justify-between">
         <div>
           <div className="flex items-center gap-3 mt-6 mb-3">
-            <div className="text-textPrimary text-base font-semibold font-openSans">
+            <div className="text-textPrimary text-xs md:text-base font-semibold font-openSans">
               {props.title}
             </div>
-            <div className="text-textTertiary text-base font-openSans">
+            <div className="text-textTertiary text-xs md:text-base font-openSans">
               {props.date}
             </div>
           </div>
-          <div className="text-xl text-textSecondary font-normal">
+          <div className="text-sm md:text-xl text-textSecondary font-normal">
             {props.description}
           </div>
         </div>
@@ -30,7 +30,9 @@ export const Card = (props: CategoriesType) => {
             alt="user"
             className="h-[32px] w-[32px] rounded-full object-cover"
           />
-          <div className="text-base text-textSecondary">{props.username}</div>
+          <div className="text-xs md:text-base text-textSecondary">
+            {props.username}
+          </div>
         </div>
       </div>
     </div>

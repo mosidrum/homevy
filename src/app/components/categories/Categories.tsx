@@ -83,7 +83,7 @@ const categories: CategoriesType[] = [
 export const Categories = () => {
   return (
     <div className="mx-0 sm:mx-20 xl:mx-20 2xl:mx-52">
-      <div className="text-5xl text-textSecondary font-light mb-10">
+      <div className="text-xl md:text-2xl xl:text-5xl text-textSecondary font-light mb-10">
         Latest news
       </div>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 place-items-center gap-x-[50px] gap-y-20">
@@ -102,7 +102,7 @@ export const Categories = () => {
       <div className="flex justify-center">
         <Button
           title="Load more"
-          className="px-14 py-4 border border-textPrimary font-bold text-xl rounded-[56px] mt-24"
+          className="px-7 py-2 md:px-14 md:py-4 border border-textPrimary font-bold text-sm md:text-xl rounded-[56px] mt-24"
         />
       </div>
     </div>
