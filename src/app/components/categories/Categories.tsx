@@ -86,7 +86,7 @@ export const Categories = () => {
       <div className="text-5xl text-textSecondary font-light mb-10">
         Latest news
       </div>
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 place-items-center gap-12 ">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 place-items-center gap-x-[50px] gap-y-20">
         {categories.map((item) => (
           <Card
             key={item.id}
