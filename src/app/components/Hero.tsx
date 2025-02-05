@@ -5,8 +5,8 @@ import user1 from "../assets/user1.png";
 
 export const Hero = () => {
   return (
-    <div className="min-h-14 grid md:grid-cols-2 gap-x-[100px] justify-between">
-      <div className="w-full">
+    <div className="grid md:grid-cols-2 gap-x-[100px] justify-between">
+      <div className=" w-3/4 mx-auto md:w-full">
         <Image
           src={hero}
           alt="hero"
@@ -14,7 +14,7 @@ export const Hero = () => {
         />
       </div>
 
-      <div className="flex flex-col justify-center">
+      <div className="flex flex-col justify-center items-center md:items-start">
         <div className="flex items-center gap-3 mt-6 mb-3">
           <div className="text-textPrimary text-xs md:text-base font-semibold font-openSans ">
             Category
@@ -23,7 +23,7 @@ export const Hero = () => {
             November 22, 2021
           </div>
         </div>
-        <div className="text-[36px] leading-[50px] md:text-[42px] xl:text-[48px] xl:leading-[72px]">
+        <div className="text-[36px] text-center md:text-left  leading-[50px] md:text-[42px] xl:text-[48px] xl:leading-[72px]">
           Pitch termsheet backing validation focus release.
         </div>
 
