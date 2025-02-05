@@ -82,7 +82,7 @@ const categories: CategoriesType[] = [
 
 export const Categories = () => {
   return (
-    <div className="mx-52">
+    <div className="mx-0 sm:mx-20 xl:mx-20 2xl:mx-52">
       <div className="text-5xl text-textSecondary font-light mb-10">
         Latest news
       </div>

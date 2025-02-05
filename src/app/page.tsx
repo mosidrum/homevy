@@ -4,7 +4,7 @@ import Footer from "./components/Footer";
 
 export default function Home() {
   return (
-    <div className="px-[100px] pt-14">
+    <div className="px-10 xl:px-[50px] 2xl:px-[100px] pt-14">
       <Navbar />
       <Heading />
       <Hero />
