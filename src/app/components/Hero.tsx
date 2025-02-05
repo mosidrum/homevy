@@ -10,7 +10,7 @@ export const Hero = () => {
         <Image
           src={hero}
           alt="hero"
-          className="w-full h-[276px] md:h-[386px] object-fill"
+          className="w-full h-[276px] md:h-[386px] object-cover rounded-3xl object-top"
         />
       </div>
 
